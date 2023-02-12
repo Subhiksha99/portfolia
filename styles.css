@@ -1,0 +1,83 @@
+.title{
+    background-color: #FF597B;
+    color: white;
+}
+.navbar-brand{
+   color: white;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 1.5em;
+   font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+    color: white;
+}
+.discover-btn{
+    margin: 5% 5% 0 0%;
+}
+body{
+    font-family: 'Montserrat-black', sans-serif;
+}
+h1{
+font-family: 'Montserrat-black', sans-serif;
+font-weight: bolder;
+font-size: 3em;
+line-height: 1.5;
+}
+.container-fluid{
+    padding:3% 20% 3% 20%;
+}
+h4,p{
+font-family: 'Ubuntu', sans-serif;
+line-height: 1.5;
+}
+#about{
+   padding: 20px;
+
+}
+.abouttext{
+    margin:20px;
+    padding:20px;
+}
+#project{
+    padding:7%;
+
+}
+.project-box{
+    text-align: center;
+}
+#skillset{
+    background-color: #FF597B;
+    color: white;
+    padding: 20px;
+}
+#contact{
+    background-color: #FF597B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.chat{
+    padding:5%;
+}
+.mlheader{
+    padding: 5% 0 0 2%;
+}
+hr{
+border-style:none;
+      border-top-style: dotted;
+      height: 2px;
+      width:10%;
+      border-color:black;
+      border-width:5px;
+      text-align: center;
+}
+/*
+nice color:#AAE3E2;#
+*/

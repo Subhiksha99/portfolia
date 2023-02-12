@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/coding (1).png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Project on Machine Learning</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <section class="title">
+        
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 style="text-align: center;">Machine Learning Projects</h1>
+              </div>
+              <div class="col-lg-6">
+                <img src="images/machine-learning.png" height="400px" width="400px" style="padding-left: 40px;">
+              </div>
+            </div>
+            </div>
+    </section>
+    
+    <section class="mlheader">
+        <div class="row" style="padding-bottom: 2%;">
+            <div class="col-lg-8">
+                <h1>Social Distance Monitoring</h1>
+                <p>From CCTV video , we can monitor whether people are following social distance or not.Using OpenCV library , frames are extracted and objects are detected using YOLO.Then human beings are figured out and distance between them is calculated.Django is used to develop a website to monitor people whether everyone follows social distance or not.Alert messages are given to the corresponding person when there is more violation.Twilo is used for alert messages.</p>
+            </div>
+            <div class="col-lg-4">
+                <video width="340" height="240" controls>
+                    <source src="images/demo2.mkv" >
+                  Your browser does not support the video tag.
+                  </video>
+            </div>
+        </div>
+        
+        <div class="row" style="padding-bottom: 2%">
+            <div class="col-lg-4">
+                <img src="images/phishing.PNG" height="200px" width="480px">
+            </div>
+            <div class="col-lg-8">
+                <h1>Web Phishing Detection</h1>
+                <p>Using various algorithm in ML, the model is built and trained.The Amazing website is developed where user can check whether website is legitimate or not.The Model is trained on IBM Cloud.Website is deployed using Pythonanywhere.</p>
+                <a class="btn btn-primary" href="https://subhiksha.pythonanywhere.com/" role="button">See Live</a>
+            </div>
+            
+        </div>
+        
+        <div class="row" style="padding-bottom: 2%;">
+            <div class="col-lg-8">
+                <h1>Handwritten Recognition using Neural Network</h1>
+                <p>The model is trained using IAM dataset to detect handwritten text.The recognised text is converted to other language using google translator.The model is trained with some of my own handritten words and able to detect the words correctly.OpenCV contour concept is used to detect word from sentence and given this as an input to the model.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="https://keras.io/img/examples/vision/handwriting_recognition/handwriting_recognition_28_0.png" height="200px" width="480px">
+            </div>
+        </div>
+        
+        <div class="row" style="padding-bottom: 2%;">
+        <div class="col-lg-4">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/367/063/original/fresh-milk-vector.jpg" height="200px" width="480px">
+        </div>
+        <div class="col-lg-8">
+            <h1>Milk Quality Detection</h1>
+            <p>The novel algorithm was introduced to reduce the number of nodes in hidden layer of ELM using Logistic Regression.The Quality of milk is detected using FTIR which gives the spectral point.The spectral points are given as an input to ELM network and determine the adulterant present in the milk.Flask is used to create a website to check the milk Quality.</p>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
